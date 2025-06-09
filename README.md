@@ -45,9 +45,11 @@ You'll need an OpenAI API key to run the generator.
 Not included in this repo, but described in the report: fine-tune a T5 or Flan-T5 model on your generated dataset.
 
 ## Results Summary
-Model	Accuracy	Precision	Recall	F1 Score	Specificity
-Logistic Regression	95.62%	92.38%	94.99%	93.67%	95.91%
-Neural Net (MLP)	95.51%	91.72%	95.48%	93.56%	95.50%
+## Results Summary
+| Model	| Accuracy | Precision | Recall | F1 Score | Specificity |
+| ----- | -------- | --------- | ------ | -------- | ----------- |
+| Logistic Regression | 95.62% | 92.38% | 94.99% | 93.67% | 95.91% |
+| Neural Net (MLP) |95.51% | 91.72% | 95.48% | 93.56% | 95.50% |
 
 These models were trained on filtered jokes from a Kaggle dataset and achieved high performance on binary humor classification.
 
