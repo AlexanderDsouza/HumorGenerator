@@ -45,7 +45,6 @@ You'll need an OpenAI API key to run the generator.
 Not included in this repo, but described in the report: fine-tune a T5 or Flan-T5 model on your generated dataset.
 
 ## Results Summary
-## Results Summary
 | Model	| Accuracy | Precision | Recall | F1 Score | Specificity |
 | ----- | -------- | --------- | ------ | -------- | ----------- |
 | Logistic Regression | 95.62% | 92.38% | 94.99% | 93.67% | 95.91% |
