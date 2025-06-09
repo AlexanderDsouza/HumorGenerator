@@ -10,23 +10,25 @@ Humor is a complex and subjective aspect of human communication. This project at
 
 ## Directory Structure
 
-HumorGenerator-main/
-├── Humor Classifier.ipynb               # Trains the BERT-based humor classifier H(x)
-├── LabeledSentencePairGenerator.ipynb  # GPT-4 Turbo script to generate sentence pairs
-├── LocalSentencePairGenerator.ipynb    # Variant for sentence pair generation locally
-├── LogisticRegression_model.pkl        # Pickled logistic regression model
-├── NeuralNet_model.pkl                 # Pickled MLP classifier
-├── X_train.pickle / y_train.pickle     # Training data
-├── X_test.pickle  / y_test.pickle      # Test data
+HumorGenerator-main/ \n
+├── Humor Classifier.ipynb               # Trains the BERT-based humor classifier H(x) \n
+├── LabeledSentencePairGenerator.ipynb  # GPT-4 Turbo script to generate sentence pairs \n
+├── LocalSentencePairGenerator.ipynb    # Variant for sentence pair generation locally \n
+├── LogisticRegression_model.pkl        # Pickled logistic regression model \n
+├── NeuralNet_model.pkl                 # Pickled MLP classifier \n
+├── X_train.pickle / y_train.pickle     # Training data \n
+├── X_test.pickle  / y_test.pickle      # Test data \n
 
 ## Installation
 Clone the repository and install dependencies:
-git clone https://github.com/yourusername/HumorGenerator.git
+```
+git clone https://github.com/AlexanderDsouza/HumorGenerator.git
 cd HumorGenerator
 pip install -r requirements.txt
+```
 
 If requirements.txt is missing, install manually:
-pip install transformers torch scikit-learn pandas openai
+`pip install transformers torch scikit-learn pandas openai`
 
 ## How to Run
 1. Train Humor Classifier
