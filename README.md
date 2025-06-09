@@ -9,15 +9,17 @@ Humor is a complex and subjective aspect of human communication. This project at
 3. Fine-Tuned Humor Transformer — trained on high-confidence humorous pairs filtered by H(x) using the T5 architecture.
 
 ## Directory Structure
-
-HumorGenerator-main/ \n
-├── Humor Classifier.ipynb               # Trains the BERT-based humor classifier H(x) \n
-├── LabeledSentencePairGenerator.ipynb  # GPT-4 Turbo script to generate sentence pairs \n
-├── LocalSentencePairGenerator.ipynb    # Variant for sentence pair generation locally \n
-├── LogisticRegression_model.pkl        # Pickled logistic regression model \n
-├── NeuralNet_model.pkl                 # Pickled MLP classifier \n
-├── X_train.pickle / y_train.pickle     # Training data \n
-├── X_test.pickle  / y_test.pickle      # Test data \n
+HumorGenerator/ \
+├── Humor Classifier.ipynb # Builds and evaluates the BERT-based classifier H(x) \
+├── LabeledSentencePairGenerator.ipynb # Uses GPT-4 to generate (neutral, funny) sentence pairs \
+├── LocalSentencePairGenerator.ipynb # Local variation for generating sentence pairs \
+├── LogisticRegression_model.pkl # Saved logistic regression model for H(x) \
+├── NeuralNet_model.pkl # Saved MLP (Neural Net) model for H(x) \
+├── X_train.pickle # Training features (sentence embeddings) \
+├── y_train.pickle # Training labels (0=not funny, 1=funny) \
+├── X_test.pickle # Test features \
+├── y_test.pickle # Test labels \
+└── README.md
 
 ## Installation
 Clone the repository and install dependencies:
