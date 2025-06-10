@@ -11,8 +11,8 @@ Humor is a complex and subjective aspect of human communication. This project at
 ## Directory Structure
 HumorGenerator/ \
 ├── Humor Classifier.ipynb # Builds and evaluates the BERT-based classifier H(x) \
-├── LabeledSentencePairGenerator.ipynb # Uses GPT-4 to generate (neutral, funny) sentence pairs \
-├── LocalSentencePairGenerator.ipynb # Local variation for generating sentence pairs \
+├── LocalSentencePairGenerator.ipynb # Uses GPT-4 to generate (neutral, funny) sentence pairs \
+├── T5Trainer.ipynb # Trains T5-Large model on local sentence pairs from GPT-4 and H(x) \
 ├── LogisticRegression_model.pkl # Saved logistic regression model for H(x) \
 ├── NeuralNet_model.pkl # Saved MLP (Neural Net) model for H(x) \
 ├── X_train.pickle # Training features (sentence embeddings) \
