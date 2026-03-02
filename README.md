@@ -66,4 +66,4 @@ These models were trained on filtered jokes from a Kaggle dataset and achieved h
 - Improve style diversity via curriculum learning or GPT-4-level models.
 
 ## Citation
-If you use this work, consider citing our project report (coming soon).
+If you use this work, consider citing our project report.
