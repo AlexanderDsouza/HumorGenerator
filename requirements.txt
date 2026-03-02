@@ -1,0 +1,17 @@
+# Core Data Handling
+pandas>=3.0.0
+numpy>=2.1.0
+
+# Machine Learning & Deep Learning
+scikit-learn>=1.6.0
+torch>=2.10.0
+torchvision>=0.23.0
+torchaudio>=2.10.0
+
+# Natural Language Processing
+transformers>=4.57.0
+tokenizers>=0.21.0
+accelerate>=1.2.0
+
+# API & Integration
+openai>=1.60.0
